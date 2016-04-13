@@ -3,5 +3,6 @@ function printHelloWorld(){
 }
 
 function helloUser(name){
+	var name;
 	print("Hello "+name +"!")
 }
