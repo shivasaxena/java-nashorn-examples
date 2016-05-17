@@ -1,4 +1,4 @@
-package com.metalop.nashorn.l2;
+package com.metalop.nashorn.tutorials;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -17,7 +17,6 @@ import com.google.gson.GsonBuilder;
 public class HandlebarsTemplates {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
 		
 		

@@ -1,4 +1,4 @@
-package com.metalop.nashorn.l2;
+package com.metalop.nashorn.tutorials;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -35,6 +35,6 @@ public class UsingMomentJs {
 		}catch(Exception e){
 			e.printStackTrace();
 		}
-}
+	}
 
 }

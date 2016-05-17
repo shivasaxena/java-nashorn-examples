@@ -1,4 +1,4 @@
-package com.metalop.nashorn.l1;
+package com.metalop.nashorn.tutorials;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
