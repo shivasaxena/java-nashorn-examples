@@ -9,10 +9,10 @@
 	<artifactId>javascript-libraries-advance</artifactId>
 	<name>javascript-libraries-advance</name>
 	<properties>
-		<maven.compiler.source>1.8.0_91</maven.compiler.source>
-		<maven.compiler.target>1.8.0_91</maven.compiler.target>
-		<maven.compiler.testSource>1.8.0_91</maven.compiler.testSource>
-		<maven.compiler.testTarget>1.8.0_91</maven.compiler.testTarget>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.testSource>1.8</maven.compiler.testSource>
+		<maven.compiler.testTarget>1.8</maven.compiler.testTarget>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
