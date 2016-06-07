@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.metalop.nashorn.tutorials</groupId>
+		<artifactId>nashorn-examples</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>javascript-libraries-advance</artifactId>
+	<name>javascript-libraries-advance</name>
+	<properties>
+		<maven.compiler.source>1.8.0_91</maven.compiler.source>
+		<maven.compiler.target>1.8.0_91</maven.compiler.target>
+		<maven.compiler.testSource>1.8.0_91</maven.compiler.testSource>
+		<maven.compiler.testTarget>1.8.0_91</maven.compiler.testTarget>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+		</dependency>
+		<!--Jetty dependencies start here -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>9.2.11.v20150529</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>9.2.11.v20150529</version>
+			
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-annotations</artifactId>
+			<version>9.2.11.v20150529</version>
+		</dependency>
+		<!-- Jetty Dependencies end here -->
+
+		<!--Jetty Apache JSP dependency  -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>apache-jsp</artifactId>
+			<version>9.2.11.v20150529</version>
+			
+		</dependency>
+
+		<!-- JSTL Dependency -->
+
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+	</dependencies>
+</project>
