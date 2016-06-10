@@ -1,4 +1,5 @@
 function getHelloWorldMarkup(){
-	return ReactDOMServer.renderToString(React.createElement('H1', null, 'Hello World!'));
+	var reactElementUsingJsSyntax = React.createElement('H1', null, 'Hello World!');
+	return ReactDOMServer.renderToString(reactElementUsingJsSyntax);
 }
 

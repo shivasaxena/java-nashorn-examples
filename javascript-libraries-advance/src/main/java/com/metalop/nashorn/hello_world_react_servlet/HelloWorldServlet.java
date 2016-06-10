@@ -24,9 +24,9 @@ public class HelloWorldServlet extends HttpServlet {
          response.setStatus(HttpServletResponse.SC_OK);
          ScriptEngine nashorn =  new ScriptEngineManager().getEngineByName("nashorn");
          try {
-			nashorn.eval(Utilities.ReadFromResources("React(with addons)v15.1.0.js"));
-			nashorn.eval(Utilities.ReadFromResources("ReactDOMServerV5.1.0.js"));
-			nashorn.eval(Utilities.ReadFromResources("HelloWorldReactApp.js"));
+			nashorn.eval(Utilities.readFromResourcesAsInputStream("React(with addons)v15.1.0.js"));
+			nashorn.eval(Utilities.readFromResourcesAsInputStream("ReactDOMServerV5.1.0.js"));
+			nashorn.eval(Utilities.readFromResourcesAsInputStream("HelloWorldReactApp.js"));
 			Invocable invocable = (Invocable) nashorn;
 			String s = (String) invocable.invokeFunction("getHelloWorldMarkup");
 			response.getWriter().println(s);
