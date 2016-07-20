@@ -39,8 +39,14 @@
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>apache-jsp</artifactId>
-				<version>9.2.11.v20150529</version>
+				<version>9.3.0.v20150612</version>
 			</dependency>
+			<dependency>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-webapp</artifactId>
+				<version>9.3.0.v20150612</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 	<modules>

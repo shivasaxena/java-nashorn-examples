@@ -11,8 +11,8 @@ public class StartJettyWithJsp {
 
 				// 2. Creating the WebAppContext for the created content
 				WebAppContext ctx = new WebAppContext();
-				ctx.setResourceBase("src/main/java/");
-				ctx.setContextPath("/jetty-jsp-example");
+				ctx.setResourceBase("src/main/java/com/metalop/nashorn/hello_world_react_jsp/jsp_pages/");
+				ctx.setContextPath("/react-jsp-example");
 				
 				//3. Including the JSTL jars for the webapp.
 				ctx.setAttribute("org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern",".*/[^/]*jstl.*\\.jar$");
