@@ -35,6 +35,12 @@
 				<artifactId>jetty-servlet</artifactId>
 				<version>9.3.0.v20150612</version>
 			</dependency>
+			<!--Jetty Apache JSP dependency -->
+			<dependency>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>apache-jsp</artifactId>
+				<version>9.2.11.v20150529</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<modules>
@@ -42,7 +48,7 @@
 		<module>javascript-libraries-basic</module>
 		<module>javascript-libraries-advance</module>
 	</modules>
-    <build>
+	<build>
 		<plugins>
 			<!-- Enforce minimum java version as 1.8 -->
 			<plugin>

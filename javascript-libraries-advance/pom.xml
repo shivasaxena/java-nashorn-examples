@@ -24,14 +24,13 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
-			<version>9.2.11.v20150529</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-webapp</artifactId>
 			<version>9.2.11.v20150529</version>
-			
+
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
@@ -40,16 +39,13 @@
 		</dependency>
 		<!-- Jetty Dependencies end here -->
 
-		<!--Jetty Apache JSP dependency  -->
+		<!--Jetty Apache JSP dependency -->
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>apache-jsp</artifactId>
-			<version>9.2.11.v20150529</version>
-			
 		</dependency>
 
 		<!-- JSTL Dependency -->
-
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
