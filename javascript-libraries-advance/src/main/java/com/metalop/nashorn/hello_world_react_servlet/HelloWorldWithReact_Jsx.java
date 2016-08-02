@@ -1,9 +1,7 @@
 package com.metalop.nashorn.hello_world_react_servlet;
 
-import java.io.FileReader;
 import java.io.IOException;
 
-import javax.script.Invocable;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.SimpleBindings;

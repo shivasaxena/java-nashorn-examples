@@ -6,7 +6,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 public class StartJettyWithJsp {
 
 	public static void main(String[] args) throws Exception {
-		// 1. Creating the server on port 8080
+				// 1. Creating the server on port 8080
 				Server server = new Server(8080);
 
 				// 2. Creating the WebAppContext for the created content

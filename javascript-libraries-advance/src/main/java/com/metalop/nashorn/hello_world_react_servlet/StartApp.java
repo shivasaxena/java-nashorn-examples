@@ -8,7 +8,7 @@ import org.eclipse.jetty.servlet.ServletHandler;
 public class StartApp {
 
 	public static void main(String[] args) throws Exception {
-		Server server = new Server(8181);
+		Server server = new Server(8080);
 		ServletHandler servletHandeler = new ServletHandler();
 		servletHandeler.addServletWithMapping(HelloWorldServlet.class, "/hello-from-react-js");
 		servletHandeler.addServletWithMapping(HelloWorldWithReact_Jsx.class, "/hello-from-react-jsx");
