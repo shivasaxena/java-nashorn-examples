@@ -3,7 +3,7 @@ package com.metalop.nashorn.hello_world_react_jsp;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;
 
-public class StartJettyWithJsp {
+public class StartApp {
 
 	public static void main(String[] args) throws Exception {
 				// 1. Creating the server on port 8080
