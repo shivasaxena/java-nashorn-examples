@@ -10,9 +10,8 @@ public class UsingMomentJs {
 	public static void main(String[] args) {
 		ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
 		
-		try{
+		try(BufferedReader br = new BufferedReader(new InputStreamReader(UsingMomentJs.class.getResourceAsStream("moment-with-locales.js")))){
 		
-			BufferedReader br = new BufferedReader(new InputStreamReader(UsingMomentJs.class.getResourceAsStream("moment-with-locales.js")));
 			engine.eval(br);
 			
 			// date formatting
