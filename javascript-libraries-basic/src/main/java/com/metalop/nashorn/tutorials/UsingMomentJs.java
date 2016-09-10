@@ -1,6 +1,5 @@
 package com.metalop.nashorn.tutorials;
 import java.io.BufferedReader;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 
 import javax.script.ScriptEngine;
@@ -11,7 +10,7 @@ public class UsingMomentJs {
 	public static void main(String[] args) {
 		ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
 		
-		try(InputStream is = UsingMomentJs.class.getResourceAsStream("HelloWorld.js")){
+		try{
 		
 			BufferedReader br = new BufferedReader(new InputStreamReader(UsingMomentJs.class.getResourceAsStream("moment-with-locales.js")));
 			engine.eval(br);
