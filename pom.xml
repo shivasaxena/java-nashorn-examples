@@ -13,6 +13,7 @@
 		<maven.compiler.testSource>1.8</maven.compiler.testSource>
 		<maven.compiler.testTarget>1.8</maven.compiler.testTarget>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jetty.version>9.4.48.v20220622</jetty.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -29,23 +30,23 @@
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-server</artifactId>
-				<version>9.4.48.v20220622</version>
+				<version>${jetty.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-servlet</artifactId>
-				<version>9.4.48.v20220622</version>
+				<version>${jetty.version}</version>
 			</dependency>
 			<!--Jetty Apache JSP dependency -->
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>apache-jsp</artifactId>
-				<version>9.3.0.v20150612</version>
+				<version>${jetty.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-webapp</artifactId>
-				<version>9.3.0.v20150612</version>
+				<version>${jetty.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
